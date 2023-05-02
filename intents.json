@@ -1,0 +1,129 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hii",
+        "Hiii",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "create user",
+      "patterns":[
+        "How","can","i","create","a","new","user", "account","add","guide","steps"],
+      "responses": [
+        "To create a new user, login to Asset Panda account >> Go to Gear Icon >> User Configuration >> Create new user >> Fill the details >> Hit 'Save and close"
+      ]
+    },
+    {
+      "tag": "change user template",
+      "patterns":[
+        "How","can","i","change","a","user", "template","steps","the","guide"],
+      "responses": [
+        "To change user template, login to Asset Panda account >> Go to Gear Icon >> User Configuration >> Click 'Edit User Permission' for user to change the template >> Select the template under 'User Template' dropdown >> Hit 'Save Permissions' on the top right corner."
+      ]
+    },
+    {
+      "tag": "delete user",
+      "patterns":[
+        "How","can","i","delete","a","user","guide","steps"],
+      "responses": [
+        "Caution: AssetPanda does not suggest you to delete any user because if you delete one then all the data linked with the User will be deleted including action history from the Groups hence we suggest you to change the User status to Inactive"
+      ]
+    },
+    {
+      "tag": "create an action",
+      "patterns":[
+        "How","can","i","create","a","an","action","guide","steps","explain","need"],
+      "responses": [
+        "Please find the attached video links on 2 parts on how to create action\nPart 1: https://www.youtube.com/watch?v=MbEULvcvZyM\nPart 2: https://www.youtube.com/watch?v=ssR5IOac7k8"
+      ]
+    },
+    {
+      "tag": "perform an action",
+      "patterns":[
+        "How","can","i","perform","a","an","action","guide","steps","explain","need"],
+      "responses": [
+        "To perform an action, login to Asset Panda account >> Go to the group in which you want to perform the Action >> Open any record >> Click on Action on the top right >> Select Action >> Fill the required details >> Hit 'Save and Close'"
+      ]
+    },
+    {
+      "tag": "group an action",
+      "patterns":[
+        "How","can","i","perform","a","an","group","action","guide","steps","explain","need"],
+      "responses": [
+        "To perform a group action, login to Asset Panda account >> Go to the group in which you want to perform the Action >> Select the Assets by checkmarking them from the left corner >> Click on 'Actions' on the top right corner >> Click 'Group Action' >> Select Action >> Fill the required details >> Hit 'Save and Close'"
+      ]
+    },
+    {
+      "tag": "check action history",
+      "patterns":[
+        "How","can","i","check","a","an","action","history","guide","steps","explain","need"],
+      "responses": [
+        "To check action history, login to Asset Panda account >> Go to the group of which you want to see the Action history >> Select an Asset >> Click on 'Actions' on the left Panel >> Select the Action from the Dropdown for which you want to see the Action History >> Here you can see the action history of an Asset."
+      ]
+    },
+    {
+      "tag": "assest panda",
+      "patterns":[
+        "what","is","assest","panda", "Can","tell","about","exactly"
+      ],
+      "responses": [
+        "Asset Panda is an asset tracking and management software that helps businesses keep track of their assets and inventory."
+      ]
+    },
+    {
+      "tag": "features of assest panda",
+      "patterns":[
+        "what","features","assest","panda"
+      ],
+      "responses": [
+        "Asset Panda offers a variety of features including asset tracking, inventory management, custom reporting, barcode scanning, and mobile access."
+      ]
+    },
+    {
+      "tag": "assest panda cost",
+      "patterns":[
+        "How","much","does", "Asset", "Panda", "cost"
+      ],
+      "responses": [
+        "Pricing for Asset Panda varies depending on the number of users and features needed. Contact Asset Panda for a custom quote."
+      ]
+    },
+    {
+      "tag": "benefit from asset Panda",
+      "patterns":[
+        "What","types","businesses","can", "benefit","Asset","Panda"
+      ],
+      "responses": [
+        "Any business that needs to track and manage assets can benefit from Asset Panda, including those in industries such as healthcare, education, hospitality, and manufacturing."
+      ]
+    }
+  ]
+}
